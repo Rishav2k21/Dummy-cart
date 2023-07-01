@@ -1,0 +1,18 @@
+@media screen and (max-width: 820px) {
+    .cart {
+      grid-template-columns: 1fr;
+    // display: flex;
+    // flex-direction: column;
+      aside{
+        border-radius: 0%;
+        padding: 2rem;
+        > h2 {
+            font: 100 1.2rem "Roboto";
+          }
+      }
+    }
+    .home{
+         display: flex;
+    flex-direction: column;
+    }
+}  
